@@ -11,9 +11,9 @@ body {
     overflow-x: hidden;
 }
 
-#portfolio img {
+/* #portfolio img {
     height: 200px;
-}
+} */
 
 h1::before {
     transform: scaleX(0);
@@ -43,3 +43,17 @@ h1 {
     position: relative;
     font-size: 5rem;
 }
+
+/* CSS ZOOM ANIMATION ON MY PORTFOLIO IMG  */
+
+.portfolio-item img{
+    padding: 50px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+.portfolio-item img:hover {
+    transform: scale(1.2);
+  }
