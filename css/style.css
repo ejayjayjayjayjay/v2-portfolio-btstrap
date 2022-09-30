@@ -11,9 +11,7 @@ body {
     overflow-x: hidden;
 }
 
-/* #portfolio img {
-    height: 200px;
-} */
+/* HOVER EFFECT ON H1 */
 
 h1::before {
     transform: scaleX(0);
@@ -47,7 +45,7 @@ h1 {
 /* CSS ZOOM ANIMATION ON MY PORTFOLIO IMG  */
 
 .portfolio-item img{
-    padding: 50px;
+    padding: 15px;
     transition: transform .2s;
     width: 200px;
     height: 200px;
